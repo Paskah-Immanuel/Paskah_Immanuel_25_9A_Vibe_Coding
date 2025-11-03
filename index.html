@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Porsche 911 Gallery - Asia</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Header dan Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Porsche 911 Asia</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Product</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#garage">Garage</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Bagian Home dengan Banner Produk Unggulan -->
+    <section id="home" class="banner">
+        <div class="banner-text">
+            <h1>Temukan Kekuatan Porsche 911</h1>
+            <p>Lepaskan kecepatan, keanggunan, dan inovasi yang dirancang untuk jalan-jalan Asia.</p>
+        </div>
+        <img src="images/banner-porsche911.jpg" alt="Porsche 911 Banner" />
+    </section>
+
+    <!-- Bagian Produk -->
+    <section id="products" class="products-section">
+        <h2>Explore Our Porsche 911 Models</h2>
+        <div class="products-container">
+            <!-- Contoh Produk 1 -->
+            <article class="product-card">
+                <img src="images/porsche-911-carrera.jpg" alt="Porsche 911 Carrera" />
+                <h3>Porsche 911 Carrera</h3>
+                <p class="price">Rp 3,200,000,000</p>
+                <p class="description">Rasakan kelincahan dengan 911 Carrera bermesin belakang yang ikonik, sempurna untuk sensasi sehari-hari.</p>
+                <button class="add-garage-btn" data-name="Porsche 911 Carrera" data-price="3200000000">Add to Garage</button>
+                <button class="buy-now-btn mobile-only">Buy Now</button>
+            </article>
+
+            <!-- Contoh Produk 2 -->
+            <article class="product-card">
+                <img src="images/porsche-911-turbo.jpg" alt="Porsche 911 Turbo" />
+                <h3>Porsche 911 Turbo</h3>
+                <p class="price">Rp 5,600,000,000</p>
+                <p class="description">Kecepatan dan teknologi yang tak tertandingi dipadukan dengan kenyamanan mewah untuk para penggemar sejati.</p>
+                <button class="add-garage-btn" data-name="Porsche 911 Turbo" data-price="5600000000">Add to Garage</button>
+                <button class="buy-now-btn mobile-only">Buy Now</button>
+            </article>
+
+            <!-- Contoh Produk 3 -->
+            <article class="product-card">
+                <img src="images/porsche-911-gt3.jpg" alt="Porsche 911 GT3" />
+                <h3>Porsche 911 GT3</h3>
+                <p class="price">Rp 7,800,000,000</p>
+                <p class="description">Lacak performa yang terinspirasi dengan dinamika dan kekuatan yang canggih.</p>
+                <button class="add-garage-btn" data-name="Porsche 911 GT3" data-price="7800000000">Add to Garage</button>
+                <button class="buy-now-btn mobile-only">Buy Now</button>
+            </article>
+        </div>
+    </section>
+
+    <!-- Bagian About -->
+    <section id="about" class="about-section">
+        <h2>About Porsche 911</h2>
+        <p>Porsche 911 adalah mobil sport legendaris yang telah mendefinisikan ulang keunggulan sejak tahun 1964, memadukan
+        desain ikonis dengan teknologi mutakhir. Dirancang khusus untuk pengemudi Asia yang cerdas yang menghargai gaya, performa, dan warisan.
+        </p>
+    </section>
+
+    <!-- Bagian Review Customer -->
+    <section id="reviews" class="reviews-section">
+        <h2>Apa Kata Pelanggan Kami</h2>
+        <div class="review-card">
+            <p>"Porsche 911 Turbo memberi saya sensasi dan kenyamanan yang tak tertandingi di jalan-jalan kota yang sibuk."</p>
+            <h4>- Arif, Jakarta</h4>
+        </div>
+        <div class="review-card">
+            <p>"Mengendarai 911 Carrera adalah gairah murni; perpaduan sempurna antara gaya dan kecepatan."</p>
+            <h4>- Mei Ling, Singapore</h4>
+        </div>
+        <div class="review-card">
+            <p>"Performa GT3 adalah sesuatu yang harus dialami oleh setiap penggemar mobil setidaknya sekali."</p>
+            <h4>- Kenji, Tokyo</h4>
+        </div>
+    </section>
+
+    <!-- Bagian Contact dan Sosmed -->
+    <section id="contact" class="contact-section">
+        <h2>Contact & Follow Us</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="social-media">
+            <a href="https://www.facebook.com/Porsche" target="_blank" aria-label="Facebook" class="social-icon facebook"></a>
+            <a href="https://www.instagram.com/porsche/" target="_blank" aria-label="Instagram" class="social-icon instagram"></a>
+            <a href="https://twitter.com/Porsche" target="_blank" aria-label="Twitter" class="social-icon twitter"></a>
+        </div>
+    </section>
+
+    <!-- Bagian Garasi Mobil -->
+    <section id="garage" class="garage-section">
+        <h2>Your Garage</h2>
+        <div id="garage-items">
+            <p>No cars added yet. Add your dream Porsche to garage!</p>
+        </div>
+        <button id="clear-garage">Clear Garage</button>
+    </section>
+
+    <!-- Footer dengan info Porsche 911 dan kebijakan -->
+    <footer>
+        <div class="footer-info">
+            <p>Types of Porsche 911: Carrera, Turbo, GT3, GT2, Targa</p>
+            <p>© 2025 Porsche 911 Asia | All rights reserved.</p>
+            <p><a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms & Conditions</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
